@@ -93,6 +93,7 @@ body{
 
 .text-information .content-information table{
    width: 26rem;
+   margin: 0 auto;
 }
 
 .text-information .content-information table tr .title{
