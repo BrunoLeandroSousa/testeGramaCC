@@ -1,0 +1,243 @@
+
+/* media screen */
+@media (max-width: 1100px){
+    .banner-home{
+        height: 28rem;
+    }
+    
+    .banner-home .the-night-coffee .side-desc{
+        transform: translateX(-7rem) translateY(0rem)
+    }
+
+    .banner-home h1{
+        font-size: 39px;
+        max-width: 35rem;
+        top: 20%;
+        padding: 0rem 1rem;
+    }
+
+    .text-information{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-information .content-information{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding: 1.3rem;
+        margin-top: 7rem;
+    }
+    
+    .text-information .content-information table{
+        width: 0;
+    }
+    
+    .text-information .content-information table tr .value{
+        text-align: left;
+        font-size: 0.9rem;
+        max-width: 12rem;
+        padding: 0 1rem;
+    }
+    
+    .text-information .content-information .text-info-content{
+        text-align: center;
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+
+    .figures-decoration .figure-content .first-big-figure {
+        margin: 0;
+    }
+
+    .figures-decoration .figure-content .first-big-figure img{
+        max-width: 30rem;
+    }
+    
+    .figures-decoration .mini-figures{
+        margin-right: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
+    }
+    
+    .figures-decoration .mini-figures .first-mini-figure{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .figures-decoration .mini-figures .first-mini-figure figcaption{
+        margin-top: 3rem;
+        font-size: 20px;
+    }
+    
+    .figures-decoration .mini-figures .second-mini-figure{
+        margin: 0;
+        padding: 0;
+        margin-top: 8rem;
+    }
+    
+    .figures-decoration .figure-content .second-big-figure img{
+        max-width: 22rem;
+    }
+    
+    .figures-decoration .figure-content .second-big-figure figcaption{
+        margin-left: 0;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+    
+    .figures-decoration .figure-content .third-big-figure img{
+        max-width: 22rem;
+    }
+
+
+    .page-navigation{
+        padding: 3rem 0;
+    }
+
+    .page-navigation .container-navigation {
+        width: 20rem;
+        margin-top: 3rem;
+    }
+
+    .page-navigation .container-navigation .action{
+        max-width: 9rem;
+        height: 9.1rem;
+    }
+
+    .page-navigation .container-navigation .action img{
+        max-width: 5rem;
+    }
+
+    .page-navigation .container-navigation .action .action-title{
+        font-size: 0.9rem;
+        margin: 0;
+        max-width: 4.2rem;
+        text-align: center;
+        margin-top: 0.4rem;
+    }
+}
+
+
+@media (max-width: 1023px){
+    /* footer menu */
+    .main-footer{
+        overflow: hidden;
+    }
+
+    .main-footer .footer-social-media{
+        flex-direction: column;
+    }
+
+    .main-footer .footer-social-media .social-media-options{
+        margin-top: 2rem;
+    }
+    .main-footer .footer-social-media .social-media-options a {
+        margin-top: 1rem;
+    }
+
+    .main-footer .footer-social-media .social-media-options a + a{
+        margin-top: 1rem;
+    }
+
+    .main-footer .footer-social-media .social-media-options img{
+        margin-top: 1rem;
+    }
+}
+
+
+/* menor que tablet */
+@media (max-width: 767px){
+    
+    /*  banner and title */ 
+    .banner-home h1{
+        font-size: 26px;
+        max-width: 22rem;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 549px){
+    .banner-home .the-night-coffee .side-desc{
+        transform: translateX(-4rem) translateY(8rem);
+    }
+    .banner-home .the-night-coffee a{
+        margin-left: 1.9rem;
+    }
+    .banner-home .left-menu-button .menu-buttons{
+        margin-right: 1rem;
+    }
+
+    
+    .text-information .content-information table{
+        width: 0;
+        text-align: left;
+    }
+
+    
+    .figures-decoration img{
+        max-width: 14rem !important;
+    }
+
+    .figures-decoration .figure-content{
+        margin-top: 4rem;
+    }
+
+    .figures-decoration .mini-figures{
+        margin-top: 5rem;
+    }
+    
+    .figures-decoration .mini-figures .first-mini-figure figcaption{
+        font-size: 17px;
+        margin-top: 1rem;
+        max-width: 16rem;
+    }
+    
+    .figures-decoration .mini-figures .second-mini-figure{
+        margin-top: 6rem;
+    }
+    
+    .figures-decoration .figure-content .second-big-figure figcaption{
+        font-size: 17px;
+    }
+
+    
+    .page-navigation .container-navigation {
+        margin-top: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-navigation .container-navigation .action.next{
+        margin-top: 1rem;
+    }
+
+    .page-navigation .container-navigation .action:hover {
+        transform: unset;
+    }
+}
+
+
+/* galaxy fold */
+@media (max-width: 313px){
+    .banner-home .the-night-coffee .side-desc{
+        transform: translateX(-3rem) translateY(8rem);
+    }
+
+    .banner-home .the-night-coffee a{
+        margin-left: 0.5rem;
+    } 
+}

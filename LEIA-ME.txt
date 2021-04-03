@@ -1,0 +1,5 @@
+olá
+
+A fonte Inter do projeto pode bugar as vezes no chrome, 
+caso ela nao renderize, 
+tentar outro navegador ou abrir por live server.

@@ -1,0 +1,332 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-family: Inter, sans-serif;
+}
+
+/*  banner and title */
+.banner-home{
+    display: flex;
+    position: relative;
+    height: 57rem;
+}
+
+.banner-home .the-night-coffee{
+    width: 50%;
+    display: flex;
+}
+
+.banner-home .the-night-coffee a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner-home .the-night-coffee a::before {
+    content: url('../../assets/arrow.png');
+    font-size: 12px;
+    font-weight: 900;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.banner-home .the-night-coffee .side-desc{
+    align-self: center;
+    transform: translateX(-7rem) translateY(-1rem);
+}
+
+.banner-home .the-night-coffee p{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.banner-home h1{
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    max-width: 56rem;
+    top: 27%;
+}
+
+.banner-home .left-menu-button{
+    background-image: url('../assets/splash-banner-teste.png');
+    width: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-home .left-menu-button .menu-buttons{
+    margin-right: 3rem;
+    margin-top: 1.7rem;
+}
+
+.banner-home .left-menu-button .menu-buttons .elipse{
+    margin-right: 0.7rem;
+}
+
+
+
+
+.text-information .content-information{
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 12rem;
+}
+
+.text-information .content-information table{
+   width: 26rem;
+}
+
+.text-information .content-information table tr .title{
+    color: grey;
+    font-weight: 300;
+}
+
+.text-information .content-information table tr .value{
+    color: black;
+    font-weight: 500;
+}
+
+.text-information .content-information .text-info-content{
+    font-weight: 500;
+    max-width: 26.5rem;
+    margin-top: 0;
+    font-size: 16px;
+    max-width: 32rem;
+    margin-left: 3rem;
+    font-weight: 600;
+}
+
+
+
+
+.figures-decoration{
+    overflow: hidden;
+}
+
+.figures-decoration .figure-content{
+    margin-top: 12rem;
+}
+
+.figures-decoration .figure-content .first-big-figure img{
+    border-radius: 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.figures-decoration .mini-figures{
+    display: flex;
+    justify-content: center;
+    margin-right: 5.4rem;
+}
+
+.figures-decoration .mini-figures .first-mini-figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5rem;
+}
+
+.figures-decoration .mini-figures .first-mini-figure img{
+    border-radius: 1rem;
+}
+
+.figures-decoration .mini-figures .first-mini-figure figcaption{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 23rem;
+    margin-top: 9rem;
+    font-weight: 600;
+}
+
+.figures-decoration .mini-figures .second-mini-figure{
+    margin: 0;
+    margin-top: 11rem;
+    margin-right: 3.7rem;
+    padding-left: 5.5rem;
+}
+
+.figures-decoration .mini-figures .second-mini-figure img{
+    border-radius: 1rem;
+}
+
+.figures-decoration .figure-content .second-big-figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.figures-decoration .figure-content .second-big-figure img{
+    border-radius: 1rem;
+}
+
+.figures-decoration .figure-content .second-big-figure figcaption{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 43rem;
+    margin-top: 9rem;
+    align-self: center;
+    margin-left: 17rem;
+    padding: 0 2rem;
+    font-weight: 600;
+}
+
+.figures-decoration .figure-content .third-big-figure{
+    margin-top: 9rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.figures-decoration .figure-content .third-big-figure img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+
+
+
+.page-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16rem 0;
+}
+
+.page-navigation .container-navigation {
+    display: flex;
+    width: 100%;
+    max-width: 736px;
+    justify-content: space-between;
+}
+
+.page-navigation .container-navigation .action{
+    position: relative;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 256px;
+    width: 256px;
+    transition: all 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.page-navigation .container-navigation .action::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/splash-banner-teste.png');
+    background-size: cover;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.page-navigation .container-navigation .action:hover{
+    transform: translateY(-2rem);
+}
+
+.page-navigation .container-navigation .action.prev:hover img {
+    transform: translateX(-10px);
+}
+
+.page-navigation .container-navigation .action img {
+    z-index: 1;
+    transition: all .4s;
+}
+
+.page-navigation .container-navigation .action.next:hover img {
+    transform: translateX(10px);
+}
+
+.page-navigation .container-navigation .action:hover::after {
+    opacity: 1;
+}
+
+.page-navigation .container-navigation .action .action-title{
+    max-width: 11rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+
+
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer .footer-social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80rem;
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+    padding: 1rem;
+}
+
+.main-footer .footer-social-media .vangogh{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.main-footer .footer-social-media .social-media-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-footer .footer-social-media .social-media-options a{
+    text-decoration: none;
+    padding: 0rem 2.1rem;
+    border: 0px 1px solid black;
+    border-right: 1px solid darkgrey;
+    color: black;
+    font-weight: 500;
+}
+
+.main-footer .footer-social-media .social-media-options a img{
+    margin-left: 1rem;
+}
+
+.main-footer .footer-social-media .social-media-options a:nth-child(5){
+    border-right: 0;
+}
