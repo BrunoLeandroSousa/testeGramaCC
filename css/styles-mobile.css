@@ -33,6 +33,7 @@
     
     .text-information .content-information table{
         width: 0;
+        margin: 0 auto;
     }
     
     .text-information .content-information table tr .value{
