@@ -5,43 +5,6 @@ body {
     line-height: 1.25;
   }
   
-  /* table informations */
-  table {
-    border-collapse: collapse;
-    margin: 0;
-    padding: 0;
-    width: 28%;
-    table-layout: fixed;
-  }
-  
-  table caption {
-    font-size: 1.5em;
-    margin: .5em 0 .75em;
-  }
-  
-  table tr {
-    padding: .35em;
-  }
-  
-  table th,
-  table td {
-    padding: 0.3rem;
-  }
-  
-  table th {
-    font-size: .85em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
-
-  table > tbody > tr td:nth-child(1){
-    width: 8rem;
-  }
-
-  table > tbody > tr td:nth-child(2){
-    font-weight: 600;
-  }
-
 @media (max-width: 1100px){
     .banner-home{
         height: 28rem;
@@ -92,7 +55,6 @@ body {
         line-height: unset;
     }
 
-    /* table responsive */
     table {
         border: 0;
         transform: translateX(-4.3rem);
@@ -118,12 +80,12 @@ body {
         text-align: center;
     }
 
-    table > tbody > tr td:nth-child(1){
+    table tbody tr td:nth-child(1){
         background-color: grey;
         color: white;
     }
 
-    table > tbody > tr > td:nth-child(2){
+    table tbody tr td:nth-child(2){
         text-align: center;
         width: 8rem;
     }
