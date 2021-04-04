@@ -181,7 +181,7 @@ body {
     .page-navigation{
         padding: 3rem 0;
     }
-
+    
     .page-navigation .container-navigation {
         width: 20rem;
         margin-top: 3rem;
@@ -203,17 +203,13 @@ body {
         text-align: center;
         margin-top: 0.4rem;
     }
-}
-
-
-@media (max-width: 1023px){
-    /* footer menu */
-    .main-footer{
-        overflow: hidden;
-    }
 
     .main-footer .footer-social-media{
         flex-direction: column;
+    }
+
+    .main-footer{
+        overflow: hidden;
     }
 
     .main-footer .footer-social-media .social-media-options{
